@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sako — creative developer portfolio.">
+  <title>serdar's hall of shame</title>
+  <link rel="icon" type="image/png" href="./images/icon.png" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="portfolio-room">
+  <div id="room"></div>
+  <div class="room-crosshair" aria-hidden="true"></div>
+  <div id="wake-transition" aria-hidden="true"></div>
+  <audio id="portfolio-music" src="./audio/mozert.mp3" loop preload="auto"></audio>
+  <script type="module" src="./portfolio.js"></script>
+</body>
+</html>
